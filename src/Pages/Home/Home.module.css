@@ -1,0 +1,42 @@
+.message{
+    
+    font-family:Book Antiqua;
+    padding-left: 2vw;
+    padding-right:2vw;
+    color: white;
+}
+.Main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 2vw;
+    padding-right:2vw;
+    background-color:rgba(82,86,173,255) ;
+    height:100vh;
+
+}
+.Main span{
+    font-size: 1rem;
+    font-family:Lucida Calligraphy;
+    color: white;
+    line-height: 6vh;
+    padding-bottom: 5vh;
+   
+}
+.Main h3{
+  color: white;
+  font-size: 1.5rem;
+  letter-spacing:0.4rem ;
+}
+.Main ul{
+    color: white;
+    font-size: 1.5rem
+}
+
+@media screen and (max-width:620px) {
+  
+    .message {
+        margin-top:30vh
+    }
+}
